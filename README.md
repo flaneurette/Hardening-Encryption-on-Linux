@@ -30,6 +30,11 @@ Quantum computers can threaten **asymmetric cryptography** (RSA, ECC) but do not
 gpg --gen-random 2 32 > backup.key
 ```
 
+**Notes:**
+- Never transmit this key over the network
+- Keep a backup of the key in a safe location
+- Use a key per backup for best security
+  
 2. Encrypt backup using that key:
 ```bash
 gpg --symmetric \
