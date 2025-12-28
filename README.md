@@ -168,5 +168,3 @@ gpg --decrypt --batch --passphrase-file dek.key backup.tar.gpg > backup.tar
 - Use strong passphrases and modern algorithms (AES-256, Ed25519)  
 - Regularly rotate keys if possible  
 - For long-term sensitive data, monitor post-quantum crypto developments
-- Regularly rotate keys if possible  
-- For long-term sensitive data, monitor post-quantum crypto developments
