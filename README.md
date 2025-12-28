@@ -16,7 +16,7 @@ Quantum computers can threaten **asymmetric cryptography** (RSA, ECC) but do not
 - The main risk is key compromise, not the encryption algorithm  
 
 > Even if an attacker stores your encrypted backup today and waits decades for a quantum computer, the backup remains secure if your key/passphrase is strong and protected.
-
+> In essence, symmetric encryption isn't perfectly 100% immune but is far more resilient, requiring simple key-length increases rather than a complete algorithmic overhaul like asymmetric cryptography.
 ---
 
 ## Scenario 1 - Pure symmetric encryption with offline Key
