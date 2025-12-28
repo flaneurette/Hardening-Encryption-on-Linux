@@ -19,7 +19,7 @@ Quantum computers can threaten **asymmetric cryptography** (RSA, ECC) but do not
 
 ---
 
-## Scenario 1 — Pure symmetric encryption with offline Key
+## Scenario 1 - Pure symmetric encryption with offline Key
 
 **Goal:** Protect against “store now, decrypt later” by keeping the key offline.
 
@@ -55,7 +55,7 @@ gpg --decrypt \
 
 ---
 
-## Scenario 2 — Split Key (Two secrets required)
+## Scenario 2 - Split Key (Two secrets required)
 
 **Goal:** Require both offline and remote secrets to decrypt.
 
@@ -102,7 +102,7 @@ gpg --decrypt --batch --passphrase-file full.key backup.tar.gpg > backup.tar
 
 ---
 
-## Scenario 3 — Key-encrypted key (professional pattern)
+## Scenario 3 - Key-encrypted key (professional pattern)
 
 **Goal:** Industry-standard approach separating data and encryption key.
 
